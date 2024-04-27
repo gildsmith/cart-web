@@ -2,7 +2,7 @@
   "name": "@gildsmith/cart-client",
   "type": "module",
   "version": "1.0.0",
-  "main": "src/app.js",
+  "main": "src/widgets.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gildsmith/cart-client.git"
@@ -14,6 +14,8 @@
   },
   "homepage": "https://github.com/gildsmith/cart-client#readme",
   "dependencies": {
+    "@tabler/icons-vue": "^3.2.0",
+    "@vueuse/core": "^10.9.0",
     "axios": "^1.6.8",
     "pinia": "^2.1.7",
     "vue": "^3.4.23",
