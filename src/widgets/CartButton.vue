@@ -12,7 +12,7 @@ axios.get('_gildsmith/apps/cart').then(response => {
 <template>
     <a :href="url" class="cartButton">
         <IconShoppingBag size="24" stroke="1.5"/>
-        <div class="cartButton__text">Cart</div>
+        <span class="cartButton__text">Cart</span>
     </a>
 </template>
 
